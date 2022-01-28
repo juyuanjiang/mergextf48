@@ -39,6 +39,7 @@ let clickChangeFruit = true;
 
 // 广告链接：false 或为空字符串表示不会跳转到广告
 <<<<<<< HEAD
+<<<<<<< HEAD
 let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
@@ -49,6 +50,12 @@ let adLink = ;
 // 修改网页标题：将 "合成大西瓜" 进行替换
 document.getElementsByTagName("title")[0].innerText = '合成大霆锋 by枸橼 ';
 >>>>>>> 1fa464dad14020d0f5019e07841f95a7997cf060
+=======
+let adLink = false;
+
+// 修改网页标题：将 "合成大西瓜" 进行替换
+document.getElementsByTagName("title")[0].innerText = ' 合成大霆锋 by枸橼 ';
+>>>>>>> parent of ec12541 (Update extraSettings.js)
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
